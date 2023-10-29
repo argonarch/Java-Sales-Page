@@ -1,0 +1,198 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container-form,
+.container-cards,
+.container-footer {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.bg-blue {
+  background-color: #17A3B7;
+}
+
+
+@media (min-width: 576px) {
+  .container-cards {
+    max-width: 560px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container-form {
+    max-width: 720px;
+  }
+
+  .container-cards,
+  .container-footer {
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+
+  .container-form,
+  .container-footer,
+  .container-cards {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container-form {
+    max-width: 650px;
+  }
+
+  .container-cards {
+    max-width: 1000px;
+  }
+
+  .container-footer {
+    max-width: 1050px;
+  }
+}
+
+@media (min-width: 1400px) {
+
+  .container-form,
+  .container-cards,
+  .container-footer {
+    max-width: 1320px;
+  }
+}
+
+.mx-2-5 {
+  margin-right: 0.75rem !important;
+  margin-left: 0.75rem !important;
+}
+
+#lugar-fecha {
+  position: absolute;
+  margin-top: -180px;
+}
+
+#oradores {
+  position: absolute;
+  margin-top: -110px;
+}
+
+.comprar-ticket {
+  color: #29A645;
+}
+
+.color-verde {
+  background-color: #29A645;
+}
+
+.color-verde-claro {
+  background-color: #96C93E;
+}
+
+.logo-codo-a-codo {
+  width: 100px;
+}
+
+.bg-navbar {
+  background-color: #32393F;
+}
+
+.banner {
+  height: 100vh;
+  overflow: hidden;
+  color: aliceblue;
+  top: 0;
+  left: 0;
+}
+
+.banner-child {
+  right: 10%;
+  width: 50%;
+  bottom: 15%;
+  text-align: right !important;
+}
+
+.banner-child-sm {
+  width: 90%;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center !important;
+}
+
+.bg-images {
+  background-image: url("./images/ba1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: brightness(0.5);
+  height: 100vh;
+
+}
+
+.bg-image {
+  filter: brightness(0.5);
+  height: 100vh;
+}
+
+.imagenes {
+  width: 100%;
+}
+
+.bg-cover {
+  background-image: url(./assets/images/hawaii-en-la-actualidad.jpg);
+  height: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 440px;
+}
+
+.subrayado-punteado {
+  border-bottom: 1px dotted black;
+}
+
+.form-control::placeholder-shown {
+  color: #999999;
+}
+
+.form-control::-webkit-input-placeholder {
+  color: #999999;
+}
+
+.fs-6-5 {
+  font-size: 0.9rem;
+  margin-bottom: -5px;
+}
+
+.fs-7 {
+  font-size: 0.8rem;
+  margin-bottom: -5px;
+}
+
+.fs-8 {
+  font-size: 0.7rem;
+  margin-bottom: -5px;
+}
+
+.opaciti-0 {
+  opacity: 0;
+}
+
+.bg-footer {
+  background-image: linear-gradient(to right, #1C3643, #1D5271);
+}
+
+.bg-footer-2 {
+  background-image: linear-gradient(to right, #1C3643, #1D5271);
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
